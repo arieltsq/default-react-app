@@ -1,0 +1,17 @@
+/*
+import by order
+1. abstracts
+2. vendors
+3. base
+4. layout
+5. components
+6. pages 
+7. themees
+ */
+
+ @IMPORT 'base/_resets.scss';
+ 
+ @IMPORT 'layout/_footer.scss';
+
+ 
+ @IMPORT 'pages/_app.scss';
