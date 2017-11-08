@@ -1,4 +1,8 @@
-/*
+/* -----------------------------------*/
+/* ---------->>> GOOD PRACTICES <<<-----------*/
+/* -----------------------------------*/
+
+/* ---- 
 import by order
 1. abstracts
 2. vendors
@@ -6,12 +10,12 @@ import by order
 4. layout
 5. components
 6. pages 
-7. themees
- */
+7. themes
+ ==== */
 
- @IMPORT 'base/_resets.scss';
- 
- @IMPORT 'layout/_footer.scss';
+ /* FORMAT : @import './'  */
+ /* -----------------------------------*/
 
  
- @IMPORT 'pages/_app.scss';
+ @import './base/resets.scss'; 
+ @import './pages/app.scss';
