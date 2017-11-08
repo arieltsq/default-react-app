@@ -10,7 +10,7 @@
 		"react-scripts": "1.0.17"
 	},
 	"scripts": {
-    "precommit": "eslint",
+		"precommit": "eslint",
 		"build-css": "node-sass-chokidar src/ -o src/",
 		"watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
 		"start-js": "react-scripts start",
@@ -23,5 +23,8 @@
 	},
 	"pre-commit": [
 		"eslint"
-	]
+	],
+	"devDependencies": {
+		"pre-commit": "^1.2.2"
+	}
 }
