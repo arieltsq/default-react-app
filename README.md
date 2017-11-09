@@ -1,4 +1,4 @@
-### EXECUTION
+## Execution
 
 **Installation**
 ```
@@ -34,7 +34,7 @@ To create a production build, use yarn build.
 Open either `http://localhost:3000/` or the latter via your default browser. 
 
 
-### File Structure
+## File Structure
 
 
 ```
@@ -56,11 +56,11 @@ src
 |__package.jsoon                           
 ```
 
-#### PREREQUISITE
+## Prerequisite
 
 `Yarn || NPM `
 
-#### PACKAGES USED :
+### PACKAGES USED :
 
 Under `package.json`
 
