@@ -98,6 +98,27 @@ For **Linter** :
 	}
 ```
 
+
+For **Travis**: 
+
+** Added the basic travis configuration
+
+```
+language: node_js
+node_js:
+  - 6
+cache:
+  directories:
+    - node_modules
+script:
+  - npm run build
+  - npm test
+  ```
+
+
+
+
+
 For more details , refer to :
 
 [Create-React-App-EsLint](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#displaying-lint-output-in-the-editor)
@@ -107,4 +128,4 @@ For more details , refer to :
 
 [eslint-plugin-react-app](https://www.npmjs.com/package/eslint-plugin-react-app)
 
-
+[Travis](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#on-ci-servers)
