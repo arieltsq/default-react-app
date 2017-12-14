@@ -118,7 +118,6 @@ script:
 
 
 
-
 For more details , refer to :
 
 [Create-React-App-EsLint](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#displaying-lint-output-in-the-editor)
